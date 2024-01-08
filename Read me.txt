@@ -1,0 +1,29 @@
+this apk
+ Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+netbins apk or any other to run the project
+mysql database
+Installing
+Download and install netbins and mysql ,open your clone project
+Setting up the project
+Clone this repository to your local machine
+Open mysql apk
+Create a new database named "dormmanage" and import mysql part inside mysql apk in dormmanage database.
+Open the cloned repository in your text editor
+and 
+**** MANDATORY**** 
+
+
+(inside dorm managment folder 10 java files need to be edited with ur password)"jdbc:mysql://localhost:3306/dormmanage?zeroDateTimeBehavior=convertToNull","root","****"),
+
+
+fill ur mysql password in each screen (dorm manage folder),where connection is placed hint ("root","****") fill the star part wih ur password.
+add important jar files for mysql , to connect thee driver and access mysql info.
+
+******
+
+Copy other data that needs to be inserted into the database from the 'mysql' folder from this repository
+just copy the rest if you encounter difficulties contact me.
+then run the folder in ur application like netbins.

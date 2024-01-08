@@ -1,29 +1,33 @@
-this apk
+this apk have poor design interface , but perform perfect for its purpose i recomend to change the interface part .
  Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+# Prerequisites
 netbins apk or any other to run the project
 mysql database
-Installing
-Download and install netbins and mysql ,open your clone project
+# Installing
+Download and install netbins and mysql 
 Setting up the project
-Clone this repository to your local machine
-Open mysql apk
-Create a new database named "dormmanage" and import mysql part inside mysql apk in dormmanage database.
-Open the cloned repository in your text editor
-and 
+
+ # Clone this repository to your local application for me i use netbins
+
+
 **** MANDATORY**** 
 
+setup ur mysql u can use tuturial video how to setup mysql.
 
-(inside dorm managment folder 10 java files need to be edited with ur password)"jdbc:mysql://localhost:3306/dormmanage?zeroDateTimeBehavior=convertToNull","root","****"),
+##open mysql workbench and crate database 
 
+# Create a new database named "dormmanage" and import all tables ( file found mysql folder ) .
 
-fill ur mysql password in each screen (dorm manage folder),where connection is placed hint ("root","****") fill the star part wih ur password.
-add important jar files for mysql , to connect thee driver and access mysql info.
+# (inside dorm managment folder 10 java files need to be edited with ur mysql password )"jdbc:mysql://localhost:3306/dormmanage?zeroDateTimeBehavior=convertToNull","root","****"),
+
+# fill ur mysql password in each screen (dorm manage folder),where connection is placed hint ("root","****") fill the star part wih ur password.
+
+# add(import) important jar files for mysql , to connect thee driver and access mysql info.
 
 ******
 
-Copy other data that needs to be inserted into the database from the 'mysql' folder from this repository
+# Copy other data that needs to be inserted into the database from the 'mysql' folder from this repository
 just copy the rest if you encounter difficulties contact me.
 then run the folder in ur application like netbins.
